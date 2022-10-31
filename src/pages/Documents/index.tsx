@@ -8,7 +8,7 @@ const urlDownload =
 
 const Documents = () => {
   return (
-    <Layout title="Documento XPTO">
+    <>
       <S.Document src={urlDownload} />
       <S.Inputs>
         <Input
@@ -37,7 +37,7 @@ const Documents = () => {
         />
         <Button value="Alterar" />
       </S.Inputs>
-    </Layout>
+    </>
   )
 }
 
