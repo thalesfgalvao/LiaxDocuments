@@ -8,7 +8,7 @@ export const Documents = styled.div`
 
 export const Document = styled.iframe`
   width: 100%;
-  min-height: 50rem;
+  min-height: 60vh;
 `
 
 export const Inputs = styled.div`
