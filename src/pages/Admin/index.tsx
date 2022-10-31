@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Layout from '../../components/Layout'
+import ListOfDocuments from '../../components/ListOfDocuments'
 import Documents from '../Documents'
 import * as S from './styles'
 
@@ -10,19 +11,16 @@ const Admin = () => {
       {clicked == false ? (
         <S.LitsOfDocuments>
           <S.Documents>
-            <S.DocumentsDiv>
-              <S.Documents>Configurar Documentos</S.Documents>
-            </S.DocumentsDiv>
-
-            <S.DocumentsDiv onClick={() => isClicked(true)}>
-              <S.Documents>Documento 2</S.Documents>
-              <S.Documents>17%</S.Documents>
-            </S.DocumentsDiv>
-
-            <S.DocumentsDiv>
-              <S.Documents>Documento XPTO</S.Documents>
-              <S.Documents>95%</S.Documents>
-            </S.DocumentsDiv>
+            <ListOfDocuments
+              documento="Documento 1"
+              porcentagem="10%"
+              onClick={() => isClicked(true)}
+            />
+            <ListOfDocuments
+              documento="Documento 1"
+              porcentagem="10%"
+              onClick={() => isClicked(true)}
+            />
           </S.Documents>
         </S.LitsOfDocuments>
       ) : (

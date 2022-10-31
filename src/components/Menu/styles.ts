@@ -9,7 +9,8 @@ export const Wrapper = styled.div`
     display: flex;
     padding-top: 1rem;
     flex-direction: column;
-    background-color: ${theme.colors.semiWhite};
+    background-color: ${theme.colors.white};
+    box-shadow: ${theme.shadows.right};
   `}
 `
 
@@ -23,7 +24,7 @@ export const DivItem = styled(Link)`
       color: ${theme.colors.dark};
     }
     &:hover {
-      background-color: ${theme.colors.shadowgrey};
+      background-color: ${theme.colors.semiWhite};
       font-weight: bold;
       cursor: pointer;
       transition: 0.5s;

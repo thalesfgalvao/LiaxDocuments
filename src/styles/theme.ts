@@ -7,8 +7,7 @@ export default {
   shadows: {
     bottom:
       'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;',
-    right:
-      'rgba(60, 64, 67, 0.3) 6px 2px 16px 0px, rgba(60, 64, 67, 0.15) -6px -2px 16px 0px;'
+    right: 'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;'
   },
   colors: {
     successColor: '#6AE058',
@@ -19,7 +18,8 @@ export default {
     lightGrey: '#C7C7C7',
     shadowgrey: '#C2C2C2',
     dark: '#262626',
-    grey: '#4A4A4A'
+    grey: '#4A4A4A',
+    default: '#3E79C4'
   },
   fonts: {
     family: {

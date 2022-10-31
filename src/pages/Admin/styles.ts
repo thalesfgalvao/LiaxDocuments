@@ -16,3 +16,7 @@ export const DocumentsDiv = styled.div`
 `
 
 export const Documents = styled.p``
+
+export const Placeholder = styled.div`
+  opacity: 0;
+`

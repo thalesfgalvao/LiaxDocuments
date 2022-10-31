@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     padding: 1.5rem;
     display: grid;
     box-shadow: ${theme.shadows.bottom};
-    background-color: ${theme.colors.semiWhite};
+    background-color: ${theme.colors.white};
     grid-template-columns: 4fr 4fr 4fr;
     grid-template-rows: 12fr;
     z-index: ${theme.index.above} !important;

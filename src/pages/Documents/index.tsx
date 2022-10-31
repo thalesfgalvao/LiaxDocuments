@@ -1,6 +1,5 @@
 import Button from '../../components/DataEntry/Button'
 import Input from '../../components/DataEntry/Input'
-import Layout from '../../components/Layout'
 import * as S from './styles'
 
 const urlDownload =

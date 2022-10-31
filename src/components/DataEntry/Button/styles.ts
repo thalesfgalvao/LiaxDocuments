@@ -10,8 +10,8 @@ export const Button = styled.button`
     border: none;
     border-radius: 1rem 0rem 1rem 0rem;
     box-shadow: ${theme.shadows.bottom};
-    background-color: ${theme.colors.lightGrey};
-    color: ${theme.colors.white};
+    background-color: ${theme.colors.default};
+    color: ${theme.colors.dark};
     font-weight: bold;
 
     &:hover {
